@@ -1,0 +1,72 @@
+.bg{
+  background-color: #90953b;
+}
+.nav-link{
+  color: white;
+}
+.bg2{
+  background-color: #78853f;
+}
+.bgimg{
+  background-image: url(./images/slider-bg.jpg);
+}
+.first_text{
+  color: #e0ea17;
+}
+.second_text{
+  color: white;
+}
+.third_text{
+  color: white;
+  width: 70%;
+}
+.stylingimg img{
+  width: 100%;
+}
+.img-box {
+    width:100%;
+    height:130px;
+    background-color: #eeeded;
+   margin-right: 25px;
+   position: relative;
+}
+.img1{
+  width:100%;
+  height: 55px;
+  position: absolute;
+  top: 50px;
+}
+.imgstyle{
+  width: 100%;
+}
+.color_textbox{
+  background-color: #eeeded;
+}
+.detail-box2{
+  margin-top: 70px;
+}
+.bt1{
+  margin-top: 40px;
+  background-color: yellow;
+  padding:10px 30px;
+  border: yellow;
+}
+.feedback_text{
+ text-align: center; 
+ padding-top: 50px;
+}
+
+
+
+/* <div class="row">
+          <div class="col-5 text-start">
+          <h3 class="first_text">A PERFECET LEARNING CENTER</h3>
+          <h1 class="second_text">FOR YOUR KIDS</h1>
+          <h6 class="third_text">It is a long established fact that a reader will be distracted by the readable content
+             of a page when 
+            looking at its layout. The point of using Lorem Ipsum is that it has a
+             more-or-less normal distribution of letters, as</h2>
+         </div> 
+		 <div class="col-7 stylingimg">
+			<img src="./images/slider-bg.jpg" alt="">
+		 </div> */
