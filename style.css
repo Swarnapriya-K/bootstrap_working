@@ -8,6 +8,9 @@
 .bg{
   background-color: #90953b;
 }
+.bg-body-tertiary {
+     --bs-bg-opacity: 0;
+}
 .nav-link{
   color: white;
 }
@@ -21,7 +24,6 @@
 }
 .third_text{
   color: white;
-  width: 70%;
 }
 .img-box {
     width:100%;
@@ -55,22 +57,15 @@
   height: 600px;
   background-image: url(./images/slider-bg.jpg);
   background-size: cover;
-  width: 90%;
   position: relative;
   top: 20px;
-  margin: auto;
 }
 .container{
   margin-top: 50px;
 }
-.container-text{
-  width: 50%;
-  margin: 20px;
-}
  .read_btn{
   background-color: #e0ea17;
   padding: 10px 35px;
-  margin: 20px;
   border: #e0ea17;
  }
  .contact_btn{
@@ -79,7 +74,7 @@
  }
  .carousel-indicators{
   justify-content: start;
-  top: 400px;
+  top: 550px;
  }
  .parent_text{
   text-align: center;
@@ -88,15 +83,6 @@
  .fb_row{
 background-color: #b8ba93;
 position:relative
- }
- .img_feedback{
-  width:25%;
-  height:320px;
-  border-radius: 1000px;
-  border: 4px solid #7f7f31;
-  display: flex;
-  position: relative;
-  left: 465px;
  }
  .text_fb h2{
   text-align: center;
@@ -171,7 +157,6 @@ position:relative
 .search_box h3{
   color: darkgrey;
   padding: 10px;
-  width: 50%;
   float: left;
 }
 .innerbox{
@@ -186,11 +171,4 @@ position:relative
   .innerbox h4{
     font-weight: 400;
     margin-top: 5px;
-    margin-left: 20px;
-  }
-  .text_style{
-    color: white;
-    padding-top: 40px;
-    width: 80%;
-    margin: auto;
   }
