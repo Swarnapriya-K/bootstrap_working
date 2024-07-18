@@ -64,7 +64,7 @@
   margin-top: 50px;
 }
  .read_btn{
-  background-color: #e0ea17;
+  background-color:yellow;
   padding: 10px 35px;
   border: #e0ea17;
  }
@@ -79,10 +79,6 @@
  .parent_text{
   text-align: center;
   padding-top: 30px;
- }
- .fb_row{
-background-color: #b8ba93;
-position:relative
  }
  .text_fb h2{
   text-align: center;
@@ -112,16 +108,17 @@ position:relative
    border-radius: 1000px;
     padding-top: 15px;
     margin-top: 30px;
-    text-align:center;margin-left: 130px;
+    padding: 15px;
+    margin-left: 130px;
   }
   .arrange2{
     margin-top: 30px;
     width: 80%;
-    height: 90px;
+    height: 125px;
      background-color: white;
-   border-radius: 1000px;
-   text-align: center;
-   padding-top: 20px;
+   border-radius:18px;
+   padding: 13px;
+   padding-top: 53px;
    margin-left: 130px;
   }
   .form_sec{
@@ -143,8 +140,9 @@ position:relative
 }
 .f_text{
   color: white;
+  font-weight:300;
   display: flex;
-  justify-content: end;
+  justify-content:center;
   padding-top: 30px;
 }
 .search_box{
@@ -154,15 +152,15 @@ position:relative
   border-radius: 100px;
   margin-top: 29px;
 }
-.search_box h3{
+.search_box h6{
   color: darkgrey;
-  padding: 10px;
+  padding:20px 21px;
   float: left;
+  text-align: center;
 }
 .innerbox{
-  width: 30%;
+  width: 50%;
   height: 50px;
-  display: flex;
   background-color: yellow;
   float: right;
   border-radius: 100px;
@@ -170,5 +168,11 @@ position:relative
 }
   .innerbox h4{
     font-weight: 400;
-    margin-top: 5px;
+    display: flex;
+    justify-content: center;
   }
+  .carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color: #7f7f31;
+    padding:22px;
+  }
+
