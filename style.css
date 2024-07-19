@@ -11,14 +11,16 @@
 }
 .first_text{
   color: #e0ea17;
-  font-size:40px;
+  font-size:20px;
 }
 .second_text{
   color: white;
-  font-size: 55px;
+  font-size: 43px;
 }
 .third_text{
   color: white;
+      line-height: 1.5;
+    font-weight: 400;
 }
 .img-box {
     width:100%;
@@ -31,7 +33,7 @@
   width:100%;
   height: 55px;
   position: absolute;
-  top: 50px;
+  top: 40px;
 }
 .color_textbox{
   background-color: #eeeded;
@@ -41,18 +43,18 @@
   border: yellow;
 }
 .slider-section{
-  height: 700px;
+  height: 600px;
   background-image: url(./images/slider-bg.jpg);
   background-size: cover;
-  position: relative;
-  top: 20px;
 }
  .read_btn{
   background-color:yellow;
   border: #e0ea17;
+  /* display: inline-block; */
  }
  .contact_btn{
   border: white;
+  /* display: inline-block; */
  }
   .quote{
     position: relative;
@@ -61,19 +63,21 @@
     color: white;
   }
   .arrange{
-    width: 80%;
+    width: 100%;
     height: 50px;
     background-color: white;
    border-radius: 1000px;
   }
   .arrange2{
     margin-top: 30px;
-    width: 80%;
+    width: 100%;
     height: 125px;
      background-color: white;
    border-radius:18px;
   }
-
+  .nav-img{
+    width:40px;
+  }
   .btn_send{
     width: 27%;
     height: 48px;
@@ -84,6 +88,7 @@
 }
 .blck{
   background-color: black;
+  /* height: 400px; */
 }
 .f_text{
   color: white;
@@ -113,4 +118,6 @@
   .carousel-control-prev-icon,.carousel-control-next-icon{
     background-color: #7f7f31;
   }
+
+
 
